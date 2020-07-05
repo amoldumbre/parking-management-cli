@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "./lib/parking_slot/db_operation"
+
+require "parking_slot" if DbOperation.connect_database?
+
